@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace Calculator
 {
@@ -9,6 +9,8 @@ namespace Calculator
             Console.Clear();
             OperationsMenu();
 
+            string userInput = Console.ReadLine();
+        }
 
         static public void OperationsMenu() 
         {
