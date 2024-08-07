@@ -21,6 +21,25 @@ namespace Calculator
             Console.Write("Please select an operation: ");
         }
 
+        static public void handleUserInput(string userInput) 
+        {
+            switch (userInput)
+            {
+                case "1":
+                 Console.WriteLine("Press 1");
+                    break;
+                case "2":
+                Console.WriteLine("Press 2");
+                    break;
+                case "3":
+                 Console.WriteLine("Press 3");
+                    break;
+                case "4":
+                Console.WriteLine("Press 4");
+                    break;
+                default:
+                    Console.WriteLine("Invalid option, please try again.");
+                    break;
         }
         }
     }
